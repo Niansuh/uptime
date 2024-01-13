@@ -4,7 +4,7 @@
             <div class="container-fluid">
                 {{ $root.connectionErrorMsg }}
                 <div v-if="$root.showReverseProxyGuide">
-                    {{ $t("Using a Reverse Proxy?") }} <a href="https://github.com/louislam/uptime-kuma/wiki/Reverse-Proxy" target="_blank">{{ $t("Check how to config it for WebSocket") }}</a>
+                    {{ $t("Using a Reverse Proxy?") }} <a href="https://github.com/Niansuh/uptime/wiki/Reverse-Proxy" target="_blank">{{ $t("Check how to config it for WebSocket") }}</a>
                 </div>
             </div>
         </div>
@@ -13,10 +13,10 @@
         <header v-if="! $root.isMobile" class="d-flex flex-wrap justify-content-center py-3 mb-3 border-bottom">
             <router-link to="/dashboard" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <object class="bi me-2 ms-4" width="40" height="40" data="/icon.svg" />
-                <span class="fs-4 title">{{ $t("Uptime Kuma") }}</span>
+                <span class="fs-4 title">{{ $t("Uptime | Niansuh") }}</span>
             </router-link>
 
-            <a v-if="hasNewVersion" target="_blank" href="https://github.com/louislam/uptime-kuma/releases" class="btn btn-info me-3">
+            <a v-if="hasNewVersion" target="_blank" href="https://github.com/Niansuh/uptime/" class="btn btn-info me-3">
                 <font-awesome-icon icon="arrow-alt-circle-up" /> {{ $t("New Update") }}
             </a>
 
@@ -64,7 +64,7 @@
                             </li>
 
                             <li>
-                                <a href="https://github.com/louislam/uptime-kuma/wiki" class="dropdown-item" target="_blank">
+                                <a href="https://github.com/Niansuh/uptime/wiki" class="dropdown-item" target="_blank">
                                     <font-awesome-icon icon="info-circle" /> {{ $t("Help") }}
                                 </a>
                             </li>
@@ -85,7 +85,7 @@
         <header v-else class="d-flex flex-wrap justify-content-center pt-2 pb-2 mb-3">
             <router-link to="/dashboard" class="d-flex align-items-center text-dark text-decoration-none">
                 <object class="bi" width="40" height="40" data="/icon.svg" />
-                <span class="fs-4 title ms-2">Uptime Kuma</span>
+                <span class="fs-4 title ms-2">Uptime | Niansuh</span>
             </router-link>
         </header>
 
