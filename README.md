@@ -23,3 +23,5 @@ Uptime | Niansuh is an easy-to-use self-hosted monitoring tool.
 - Certificate info
 - Proxy support
 - 2FA support
+
+Original Author: https://github.com/Niansuh/uptime/commits?author=louislam
